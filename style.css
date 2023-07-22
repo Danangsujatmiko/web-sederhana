@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: azure;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(244, 247, 247);
+  border-bottom: rgb(75, 17, 75) solid 1.5px;
+}
+
+.judul {
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(67, 68, 9);
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+
+ul {
+  margin-top: 1rem;
+}
+
+li {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+li a {
+  color: rgb(182, 3, 3);
+}
+
+a:hover {
+  border-bottom: 0.2rem solid rgb(182, 3, 3);
+  font-weight: bolder;
+}
+
+/* nav end */
+
+div.hero img {
+  display: block;
+  width: 75%;
+  height: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 10%;
+}
+
+article {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+article p.penulis {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+article p.penulis a {
+  color: rgb(197, 12, 28);
+}
+div.isi-artikel p {
+  margin-top: 1rem;
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+footer {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
